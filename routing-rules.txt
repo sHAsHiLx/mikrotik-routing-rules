@@ -158,6 +158,7 @@
 /routing rule add dst-address=77.79.128.0/18 action=lookup table=vpn comment="JSC Ufanet"
 
 /routing rule add dst-address=83.222.12.0/22 action=lookup table=vpn comment="LLC MASTERHOST"
+/routing rule add dst-address=90.156.200.0/21 action=lookup table=vpn comment="LLC MASTERHOST"
 
 /routing rule add dst-address=178.176.0.0/14 action=lookup table=vpn comment="PJSC MegaFon"
 
