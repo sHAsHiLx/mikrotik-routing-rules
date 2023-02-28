@@ -171,3 +171,5 @@
 /routing rule add dst-address=178.208.71.0/24 action=lookup table=vpn comment="LLC RuWeb"
 
 /routing rule add dst-address=91.201.52.0/24 action=lookup table=vpn comment="Internet-Pro LLC"
+
+/routing rule add dst-address=185.40.155.0/24 action=lookup table=vpn comment="Docker LTD"
