@@ -135,6 +135,7 @@
 /routing rule add dst-address=62.109.28.0/22 action=lookup table=vpn comment="JSC IOT"
 /routing rule add dst-address=83.136.232.0/23 action=lookup table=vpn comment="JSC IOT"
 /routing rule add dst-address=178.250.156.0/23 action=lookup table=vpn comment="JSC IOT"
+/routing rule add dst-address=185.253.34.0/23 action=lookup table=vpn comment="JSC IOT"
 
 /routing rule add dst-address=81.177.128.0/19 action=lookup table=vpn comment="RTComm.RU"
 /routing rule add dst-address=195.161.0.0/16 action=lookup table=vpn comment="RTComm.RU"
