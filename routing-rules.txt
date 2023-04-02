@@ -184,3 +184,4 @@
 
 /routing rule add dst-address=84.42.0.0/17 action=lookup table=vpn comment="PJSC Rostelecom"
 
+/routing rule add dst-address=46.161.48.0/22 action=lookup table=vpn comment="Petersburg Internet Network ltd."
