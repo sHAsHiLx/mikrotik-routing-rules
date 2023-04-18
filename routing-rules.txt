@@ -187,3 +187,5 @@
 /routing rule add dst-address=46.161.48.0/22 action=lookup table=vpn comment="Petersburg Internet Network ltd."
 
 /routing rule add dst-address=213.171.32.0/19 action=lookup table=vpn comment="JSC Comcor"
+
+/routing rule add dst-address=62.113.115.0/24 action=lookup table=vpn comment="VDSINA VDS Hosting"
