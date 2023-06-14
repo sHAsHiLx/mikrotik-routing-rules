@@ -146,6 +146,7 @@
 /routing rule add dst-address=31.31.196.0/24 action=lookup table=vpn comment="Domain names registrar REG.RU"
 /routing rule add dst-address=89.108.116.0/22 action=lookup table=vpn comment="Domain names registrar REG.RU"
 /routing rule add dst-address=194.67.112.0/24 action=lookup table=vpn comment="Domain names registrar REG.RU"
+/routing rule add dst-address=194.67.64.0/24 action=lookup table=vpn comment="Domain names registrar REG.RU"
 
 /routing rule add dst-address=178.74.64.0/18 action=lookup table=vpn comment="Omskie kabelnye seti Ltd."
 
