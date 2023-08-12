@@ -202,3 +202,5 @@
 /routing rule add dst-address=81.90.180.0/22 action=lookup table=vpn comment="Kokunov Evgeny Andreevich"
 
 /routing rule add dst-address=185.254.190.0/24 action=lookup table=vpn comment="LLC Vpsville"
+
+/routing rule add dst-address=93.180.0.0/18 action=lookup table=vpn comment="Federal State Budgetary Educational Institution of Higher Education Lomonosov Moscow State Universit"
