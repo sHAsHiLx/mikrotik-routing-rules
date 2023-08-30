@@ -163,6 +163,7 @@
 /routing rule add dst-address=185.3.140.0/22 action=lookup table=vpn comment="Dataline Ltd"
 
 /routing rule add dst-address=93.95.98.0/23 action=lookup table=vpn comment="JSC MediaSoft Ekspert"
+/routing rule add dst-address=194.87.144.0/22 action=lookup table=vpn comment="JSC MediaSoft Ekspert"
 
 /routing rule add dst-address=77.79.128.0/18 action=lookup table=vpn comment="JSC Ufanet"
 
