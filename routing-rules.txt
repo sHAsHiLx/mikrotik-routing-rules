@@ -212,3 +212,5 @@
 /routing rule add dst-address=93.180.0.0/18 action=lookup table=vpn comment="Federal State Budgetary Educational Institution of Higher Education Lomonosov Moscow State Universit"
 
 /routing rule add dst-address=217.174.96.0/20 action=lookup table=vpn comment="e-Style ISP LLC"
+
+/routing rule add dst-address=80.247.32.0/20 action=lookup table=vpn comment="Federal State Unitary Enterprise The Russian Television and Radio Broadcasting Company"
