@@ -217,3 +217,5 @@
 /routing rule add dst-address=217.174.96.0/20 action=lookup table=vpn comment="e-Style ISP LLC"
 
 /routing rule add dst-address=80.247.32.0/20 action=lookup table=vpn comment="Federal State Unitary Enterprise The Russian Television and Radio Broadcasting Company"
+
+/routing rule add dst-address=91.192.148.0/22 action=lookup table=vpn comment="Rambler Internet Holding LLC"
