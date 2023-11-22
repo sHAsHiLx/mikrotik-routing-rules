@@ -229,3 +229,5 @@
 /routing rule add dst-address=46.235.190.0/23 action=lookup table=vpn comment="Network for NGENIX, Sankt-Petersburg"
 
 /routing rule add dst-address=95.165.0.0/16 action=lookup table=vpn comment="PJSC Moscow city telephone network"
+
+/routing rule add dst-address=185.211.244.0/24 action=lookup table=vpn comment="Chernyshov Aleksandr Aleksandrovich"
