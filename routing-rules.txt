@@ -317,3 +317,5 @@
 /routing rule add dst-address=151.236.102.0/24 action=lookup table=vpn comment="CDNVIDEO LLC"
 /routing rule add dst-address=151.236.101.0/24 action=lookup table=vpn comment="CDNVIDEO LLC"
 /routing rule add dst-address=151.236.100.0/24 action=lookup table=vpn comment="CDNVIDEO LLC"
+
+/routing rule add dst-address=93.174.72.0/21 action=lookup table=vpn comment="Comfortel Ltd."
