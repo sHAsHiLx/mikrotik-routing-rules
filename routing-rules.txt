@@ -479,3 +479,5 @@
 /routing rule add dst-address=172.241.48.0/24 action=lookup table=vpn comment="EDINAYA SET LIMITED LIABILITY COMPANY"
 
 /routing rule add dst-address=94.181.32.0/20 action=lookup table=vpn comment="JSC ER-Telecom Holding Chelyabinsk Branch"
+
+/routing rule add dst-address=89.208.98.0/23 action=lookup table=vpn comment="ZVEZDA block"
