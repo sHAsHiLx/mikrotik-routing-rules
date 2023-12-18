@@ -484,3 +484,5 @@
 /routing rule add dst-address=89.208.98.0/23 action=lookup table=vpn comment="ZVEZDA block"
 
 /routing rule add dst-address=79.137.224.0/20 action=lookup table=vpn comment="LLC Digital Network"
+
+/routing rule add dst-address=91.236.136.0/24 action=lookup table=vpn comment="Webhost LLC"
