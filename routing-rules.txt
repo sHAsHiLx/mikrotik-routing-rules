@@ -488,3 +488,5 @@
 /routing rule add dst-address=91.236.136.0/24 action=lookup table=vpn comment="Webhost LLC"
 
 /routing rule add dst-address=93.189.144.0/21 action=lookup table=vpn comment="Data-center IMAQLIQ Ltd."
+
+/routing rule add dst-address=109.111.160.0/20 action=lookup table=vpn comment="Siberian Networks Novokuznetsk"
