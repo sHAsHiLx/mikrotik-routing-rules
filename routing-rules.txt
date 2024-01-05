@@ -199,6 +199,7 @@ routing rule add dst-address=8.8.8.8 action=lookup table=vpn comment="dns.google
 /routing rule add dst-address=217.18.63.0/24 action=lookup table=vpn comment="TimeWeb-AS"
 
 /routing rule add dst-address=178.208.71.0/24 action=lookup table=vpn comment="LLC RuWeb"
+/routing rule add dst-address=185.12.92.0/22 action=lookup table=vpn comment="Internet-Hosting Ltd"
 
 /routing rule add dst-address=91.201.52.0/24 action=lookup table=vpn comment="Internet-Pro LLC"
 
