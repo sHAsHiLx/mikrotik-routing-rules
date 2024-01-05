@@ -572,3 +572,5 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=185.94.110.0/24 action=lookup table=vpn comment="HLL LLC"
 /routing rule add dst-address=185.94.111.0/24 action=lookup table=vpn comment="HLL LLC"
 /routing rule add dst-address=195.43.92.0/24 action=lookup table=vpn comment="HLL LLC"
+
+/routing rule add dst-address=195.211.120.0/22 action=lookup table=vpn comment="NOVOSYSTEM Ltd."
