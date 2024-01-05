@@ -29,6 +29,7 @@ routing rule add dst-address=8.8.8.8 action=lookup table=vpn comment="dns.google
 /routing rule add dst-address=89.208.0.0/16 action=lookup table=vpn comment="VK.com network"
 /routing rule add dst-address=93.186.224.0/20 action=lookup table=vpn comment="VK.com network"
 /routing rule add dst-address=95.142.192.0/19 action=lookup table=vpn comment="VK.com network"
+/routing rule add dst-address=95.163.216.0/22 action=lookup table=vpn comment="VK.com network"
 /routing rule add dst-address=95.213.0.0/18 action=lookup table=vpn comment="VK.com network"
 /routing rule add dst-address=185.16.246.0/23 action=lookup table=vpn comment="VK.com network"
 /routing rule add dst-address=185.29.130.0/24 action=lookup table=vpn comment="VK.com network"
