@@ -562,3 +562,13 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=195.43.92.0/24 action=lookup table=vpn comment="HLL LLC"
 
 /routing rule add dst-address=195.211.120.0/22 action=lookup table=vpn comment="NOVOSYSTEM Ltd."
+
+/routing rule add dst-address=91.90.212.0/22 action=lookup table=vpn comment="Advanced Solutions LLC"
+/routing rule add dst-address=91.228.238.0/23 action=lookup table=vpn comment="Advanced Solutions LLC"
+/routing rule add dst-address=91.232.132.0/22 action=lookup table=vpn comment="Advanced Solutions LLC"
+/routing rule add dst-address=92.62.112.0/22 action=lookup table=vpn comment="Advanced Solutions LLC"
+/routing rule add dst-address=93.88.76.0/22 action=lookup table=vpn comment="Advanced Solutions LLC"
+/routing rule add dst-address=185.30.96.0/23 action=lookup table=vpn comment="Advanced Solutions LLC"
+/routing rule add dst-address=185.30.98.0/23 action=lookup table=vpn comment="Advanced Solutions LLC"
+/routing rule add dst-address=185.48.16.0/22 action=lookup table=vpn comment="Advanced Solutions LLC"
+/routing rule add dst-address=193.39.116.0/24  action=lookup table=vpn comment="Advanced Solutions LLC"
