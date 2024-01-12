@@ -575,3 +575,5 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=193.39.116.0/24  action=lookup table=vpn comment="Advanced Solutions LLC"
 
 /routing rule add dst-address=193.17.93.0/24  action=lookup table=vpn comment="EdgeCenter LLC"
+
+/routing rule add dst-address=37.252.0.0/23  action=lookup table=vpn comment="IROKO Networks Corporation"
