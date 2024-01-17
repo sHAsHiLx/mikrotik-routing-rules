@@ -578,6 +578,8 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 
 /routing rule add dst-address=37.252.0.0/23  action=lookup table=vpn comment="IROKO Networks Corporation"
 
-/routing rule add dst-address=185.72.228.0/22  action=lookup table=vpn comment="ROSBUSINESSCONSULTING JSC"
-/routing rule add dst-address=80.68.240.0/20  action=lookup table=vpn comment="ROSBUSINESSCONSULTING JSC"
-
+/routing rule add dst-address=80.68.240.0/20 action=lookup table=vpn comment="ROSBUSINESSCONSULTING JSC"
+/routing rule add dst-address=185.72.228.0/22 action=lookup table=vpn comment="ROSBUSINESSCONSULTING JSC"
+/routing rule add dst-address=185.134.204.0/24 action=lookup table=vpn comment="Loveplanet DC network"
+/routing rule add dst-address=185.134.205.0/24 action=lookup table=vpn comment="Loveplanet DC network"
+/routing rule add dst-address=185.134.207.0/24 action=lookup table=vpn comment="Loveplanet LLC"
