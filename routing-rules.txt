@@ -583,3 +583,5 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=185.134.204.0/24 action=lookup table=vpn comment="Loveplanet DC network"
 /routing rule add dst-address=185.134.205.0/24 action=lookup table=vpn comment="Loveplanet DC network"
 /routing rule add dst-address=185.134.207.0/24 action=lookup table=vpn comment="Loveplanet LLC"
+
+/routing rule add dst-address=94.228.192.0/20 action=lookup table=vpn comment="Uniontel Ltd"
