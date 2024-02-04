@@ -591,3 +591,5 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=213.109.79.0/24 action=lookup table=vpn comment="Teamo.ru LLC"
 
 /routing rule add dst-address=88.214.236.0/23 action=lookup table=vpn comment="iPipe SD block"
+
+/routing rule add dst-address=185.129.100.0/24 action=lookup table=vpn comment="DDOS-GUARD LTD"
