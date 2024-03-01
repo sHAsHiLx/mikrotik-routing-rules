@@ -596,6 +596,7 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 
 /routing rule add dst-address=88.214.236.0/23 action=lookup table=vpn comment="iPipe SD block"
 
+/routing rule add dst-address=91.215.41.0/24 action=lookup table=vpn comment="DDOS-GUARD LTD"
 /routing rule add dst-address=185.129.100.0/24 action=lookup table=vpn comment="DDOS-GUARD LTD"
 
 /routing rule add dst-address=185.71.65.0/24 action=lookup table=vpn comment="StormWall Clients Network"
