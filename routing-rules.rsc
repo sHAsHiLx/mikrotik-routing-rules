@@ -616,3 +616,5 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=185.215.4.0/24 action=lookup table=vpn comment="Tilda Publishing LLC"
 
 /routing rule add dst-address=91.207.58.0/23 action=lookup table=vpn comment="Limited Liability Company GPM Digital Technologies"
+
+/routing rule add dst-address=83.137.52.0/24 action=lookup table=vpn comment="SVS Communication network"
