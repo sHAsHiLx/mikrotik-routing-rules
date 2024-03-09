@@ -148,6 +148,7 @@
 /routing rule add dst-address=188.43.206.245 action=lookup table=vpn comment="salam-1-19.rutube.ru"
 /routing rule add dst-address=188.43.0.0/16 action=lookup table=vpn comment="salam-1-19.rutube.ru"
 
+/routing rule add dst-address=31.135.8.0/23 action=lookup table=vpn comment="JSC IOT"
 /routing rule add dst-address=62.109.28.0/22 action=lookup table=vpn comment="JSC IOT"
 /routing rule add dst-address=79.174.14.0/23 action=lookup table=vpn comment="JSC IOT"
 /routing rule add dst-address=83.136.232.0/23 action=lookup table=vpn comment="JSC IOT"
