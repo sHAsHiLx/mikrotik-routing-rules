@@ -626,3 +626,5 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=83.137.52.0/24 action=lookup table=vpn comment="SVS Communication network"
 
 /routing rule add dst-address=185.125.56.0/22 action=lookup table=vpn comment="QuickSoft LLC"
+
+/routing rule add dst-address=188.244.32.0/20 action=lookup table=vpn comment="LLC SETEL"
