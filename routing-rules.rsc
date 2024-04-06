@@ -257,6 +257,7 @@
 /routing rule add dst-address=185.211.244.0/24 action=lookup table=vpn comment="Chernyshov Aleksandr Aleksandrovich"
 
 /routing rule add dst-address=95.183.10.0/24 action=lookup table=vpn comment="IHC.RU network in Eserver.ru"
+/routing rule add dst-address=185.22.234.0/23 action=lookup table=vpn comment="IHC.RU network in Eserver.ru"
 
 /routing rule add dst-address=83.172.48.0/21 action=lookup table=vpn comment="JSC ER-Telecom Holding"
 /routing rule add dst-address=195.91.128.0/17 action=lookup table=vpn comment="JSC ER-Telecom Holding"
