@@ -639,3 +639,4 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=91.193.180.0/22 action=lookup table=vpn comment="3nt solutions LLP"
 
 /routing rule add dst-address=185.12.125.0/24 action=lookup table=vpn comment="QWARTA LLC"
+/routing rule add dst-address=185.12.127.0/24 action=lookup table=vpn comment="QWARTA LLC"
