@@ -485,6 +485,7 @@
 /routing rule add dst-address=93.174.72.0/21 action=lookup table=vpn comment="Comfortel Ltd."
 
 /routing rule add dst-address=77.222.56.0/22 action=lookup table=vpn comment="SpaceWeb Ltd"
+/routing rule add dst-address=77.222.60.0/22 action=lookup table=vpn comment="SpaceWeb Ltd"
 
 /routing rule add dst-address=194.58.184.0/21 action=lookup table=vpn comment="Svyaz-Energo branch"
 
