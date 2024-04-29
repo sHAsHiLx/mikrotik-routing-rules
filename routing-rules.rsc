@@ -785,3 +785,5 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=78.30.192.0/18 action=lookup table=vpn comment="Lancom Ltd."
 
 /routing rule add dst-address=109.95.208.0/21 action=lookup table=vpn comment="System Service Ltd."
+
+/routing rule add dst-address=91.214.119.0/24 action=lookup table=vpn comment="Cyberfirst LLC"
