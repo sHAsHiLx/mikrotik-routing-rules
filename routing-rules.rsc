@@ -793,3 +793,5 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=62.76.24.0/22 action=lookup table=vpn comment="Start LLC"
 
 /routing rule add dst-address=193.232.36.0/24 action=lookup table=vpn comment="LLC Orbita plus Gagarin"
+
+/routing rule add dst-address=185.105.225.0/24 action=lookup table=vpn comment="OOO VPS"
