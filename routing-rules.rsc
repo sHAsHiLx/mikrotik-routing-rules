@@ -791,3 +791,5 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=91.214.119.0/24 action=lookup table=vpn comment="Cyberfirst LLC"
 
 /routing rule add dst-address=62.76.24.0/22 action=lookup table=vpn comment="Start LLC"
+
+/routing rule add dst-address=193.232.36.0/24 action=lookup table=vpn comment="LLC Orbita plus Gagarin"
