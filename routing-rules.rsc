@@ -800,3 +800,5 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=185.26.120.0/22 action=lookup table=vpn comment="Hostland LTD"
 
 /routing rule add dst-address=91.233.230.0/23 action=lookup table=vpn comment="Enterprise NIX Ltd."
+
+/routing rule add dst-address=95.139.0.0/17 action=lookup table=vpn comment="MTS PJSC"
