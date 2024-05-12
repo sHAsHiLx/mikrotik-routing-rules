@@ -1,5 +1,5 @@
-/routing rule add dst-address=8.8.8.8 action=lookup table=vpn comment="dns.google"
-/routing rule add dst-address=8.8.4.4 action=lookup table=vpn comment="dns.google"
+/routing rule add dst-address=8.8.8.8/32 action=lookup table=vpn comment="dns.google"
+/routing rule add dst-address=8.8.4.4/32 action=lookup table=vpn comment="dns.google"
 
 /routing rule add dst-address=178.208.73.0/24 action=lookup table=vpn comment="mchost.ru"
 /routing rule add dst-address=178.208.83.0/24 action=lookup table=vpn comment="mchost.ru"
