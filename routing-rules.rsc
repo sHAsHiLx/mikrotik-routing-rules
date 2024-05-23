@@ -344,6 +344,7 @@
 /routing rule add dst-address=90.156.240.0/21 action=lookup table=vpn comment="LLC MASTERHOST"
 
 /routing rule add dst-address=178.176.0.0/14 action=lookup table=vpn comment="PJSC MegaFon"
+/routing rule add dst-address=213.141.128.0/19 action=lookup table=vpn comment="PJSC MegaFon"
 
 /routing rule add dst-address=5.23.51.0/24 action=lookup table=vpn comment="TimeWeb-AS"
 /routing rule add dst-address=87.249.43.0/24 action=lookup table=vpn comment="TimeWeb-AS"
