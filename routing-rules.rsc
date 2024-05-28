@@ -146,6 +146,7 @@
 /routing rule add dst-address=89.111.128.0/18 action=lookup table=vpn comment="ru-center"
 /routing rule add dst-address=91.189.112.0/21 action=lookup table=vpn comment="ru-center"
 /routing rule add dst-address=178.210.64.0/19 action=lookup table=vpn comment="ru-center"
+/routing rule add dst-address=195.208.1.0/24 action=lookup table=vpn comment="ru-center"
 
 /routing rule add dst-address=89.248.230.0/24 action=lookup table=vpn comment="rutube"
 /routing rule add dst-address=178.248.232.0/21 action=lookup table=vpn comment="rutube"
