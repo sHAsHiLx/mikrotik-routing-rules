@@ -736,6 +736,7 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=185.48.16.0/22 action=lookup table=vpn comment="Advanced Solutions LLC"
 /routing rule add dst-address=193.39.116.0/24  action=lookup table=vpn comment="Advanced Solutions LLC"
 
+/routing rule add dst-address=92.223.103.0/24  action=lookup table=vpn comment="EdgeCenter LLC"
 /routing rule add dst-address=95.181.182.0/24  action=lookup table=vpn comment="EdgeCenter LLC"
 /routing rule add dst-address=193.17.93.0/24  action=lookup table=vpn comment="EdgeCenter LLC"
 
