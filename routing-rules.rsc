@@ -814,3 +814,5 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=94.158.208.0/21 action=lookup table=vpn comment="Alibaba"
 
 /routing rule add dst-address=212.193.111.0/24 action=lookup table=vpn comment="LLC The Technical centre of Internet"
+
+/routing rule add dst-address=85.143.172.0/22 action=lookup table=vpn comment="Trader soft LLC"
