@@ -767,6 +767,7 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=185.195.170.0/23 action=lookup table=vpn comment="Okay-Telecom Ltd."
 
 /routing rule add dst-address=109.120.162.0/24 action=lookup table=vpn comment="Rusonyx, Ltd."
+/routing rule add dst-address=213.189.196.0/23 action=lookup table=vpn comment="Rusonyx, Ltd."
 
 /routing rule add dst-address=213.221.0.0/18 action=lookup table=vpn comment="PJSC Vimpelcom"
 
