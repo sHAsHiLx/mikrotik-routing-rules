@@ -326,6 +326,7 @@
 /routing rule add dst-address=178.74.64.0/18 action=lookup table=vpn comment="Omskie kabelnye seti Ltd."
 
 /routing rule add dst-address=45.130.40.0/22 action=lookup table=vpn comment="Beget LLC"
+/routing rule add dst-address=45.141.76.0/22 action=lookup table=vpn comment="Beget LLC"
 /routing rule add dst-address=62.113.96.0/20 action=lookup table=vpn comment="Beget LLC"
 /routing rule add dst-address=81.200.112.0/21 action=lookup table=vpn comment="Beget"
 /routing rule add dst-address=87.236.16.0/21 action=lookup table=vpn comment="Beget"
