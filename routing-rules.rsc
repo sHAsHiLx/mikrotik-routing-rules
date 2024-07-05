@@ -9,6 +9,7 @@
 /routing rule add dst-address=5.255.192.0/18 action=lookup table=vpn comment="Yandex network"
 /routing rule add dst-address=37.9.64.0/18 action=lookup table=vpn comment="Yandex network"
 /routing rule add dst-address=37.140.128.0/18 action=lookup table=vpn comment="Yandex network"
+/routing rule add dst-address=51.250.0.0/17 action=lookup table=vpn comment="Yandex Cloud"
 /routing rule add dst-address=62.84.112.0/20 action=lookup table=vpn comment="Yandex.Cloud LLC"
 /routing rule add dst-address=77.75.152.0/21 action=lookup table=vpn comment="Yandex network"
 /routing rule add dst-address=77.88.0.0/18 action=lookup table=vpn comment="Yandex network"
@@ -17,8 +18,7 @@
 /routing rule add dst-address=93.158.128.0/18 action=lookup table=vpn comment="Yandex network"
 /routing rule add dst-address=95.108.128.0/17 action=lookup table=vpn comment="Yandex network"
 /routing rule add dst-address=100.43.64.0/19 action=lookup table=vpn comment="Yandex network"
-
-/routing rule add dst-address=51.250.0.0/17 action=lookup table=vpn comment="Yandex Cloud"
+/routing rule add dst-address=158.160.0.0/16 action=lookup table=vpn comment="Yandex.Cloud LLC"
 
 /routing rule add dst-address=5.181.60.0/22 action=lookup table=vpn comment="VK.com network"
 /routing rule add dst-address=45.84.128.0/22 action=lookup table=vpn comment="VK.com network"
