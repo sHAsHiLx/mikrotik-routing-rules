@@ -304,7 +304,9 @@
 /routing rule add dst-address=213.159.214.0/23 action=lookup table=vpn comment="JSC IOT"
 /routing rule add dst-address=217.28.220.0/23 action=lookup table=vpn comment="JSC IOT"
 /routing rule add dst-address=217.28.222.0/23 action=lookup table=vpn comment="JSC IOT"
+
 /routing rule add dst-address=81.177.0.0/19 action=lookup table=vpn comment="RTComm.RU"
+/routing rule add dst-address=81.177.160.0/20 action=lookup table=vpn comment="RTComm.RU"
 /routing rule add dst-address=81.177.128.0/19 action=lookup table=vpn comment="RTComm.RU"
 /routing rule add dst-address=195.161.0.0/16 action=lookup table=vpn comment="RTComm.RU"
 /routing rule add dst-address=217.107.0.0/18 action=lookup table=vpn comment="RTComm.RU"
