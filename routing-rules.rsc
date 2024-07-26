@@ -356,6 +356,7 @@
 
 /routing rule add dst-address=5.23.50.0/24 action=lookup table=vpn comment="TimeWeb-AS"
 /routing rule add dst-address=5.23.51.0/24 action=lookup table=vpn comment="TimeWeb-AS"
+/routing rule add dst-address=85.193.87.0/24 action=lookup table=vpn comment="TimeWeb-AS"
 /routing rule add dst-address=87.249.43.0/24 action=lookup table=vpn comment="TimeWeb-AS"
 /routing rule add dst-address=89.223.66.0/24 action=lookup table=vpn comment="TimeWeb-AS"
 /routing rule add dst-address=89.223.120.0/24 action=lookup table=vpn comment="TimeWeb-AS"
