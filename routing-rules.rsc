@@ -841,3 +841,5 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=185.70.164.0/22 action=lookup table=vpn comment="JSC Sport-Express"
 
 /routing rule add dst-address=178.249.71.0/24 action=lookup table=vpn comment="Miran network for clients"
+
+/routing rule add dst-address=212.42.32.0/19 action=lookup table=vpn comment="TESLATEL LLC"
