@@ -1,6 +1,7 @@
 /routing rule add dst-address=8.8.8.8/32 action=lookup table=vpn comment="dns.google"
 /routing rule add dst-address=8.8.4.4/32 action=lookup table=vpn comment="dns.google"
 
+/routing rule add dst-address=95.142.37.0/24 action=lookup table=vpn comment="MCHOST VPS Hosting"
 /routing rule add dst-address=178.208.73.0/24 action=lookup table=vpn comment="mchost.ru"
 /routing rule add dst-address=178.208.83.0/24 action=lookup table=vpn comment="mchost.ru"
 /routing rule add dst-address=46.30.45.0/24 action=lookup table=vpn comment="eurobyte vps"
