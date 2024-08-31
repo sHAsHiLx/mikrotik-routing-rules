@@ -830,6 +830,7 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 
 /routing rule add dst-address=85.143.172.0/22 action=lookup table=vpn comment="Trader soft LLC"
 
+/routing rule add dst-address=141.8.192.0/24 action=lookup table=vpn comment="sprinthost.ru"
 /routing rule add dst-address=141.8.193.0/24 action=lookup table=vpn comment="sprinthost.ru"
 
 /routing rule add dst-address=89.253.216.0/21 action=lookup table=vpn comment="Rusonyx, Ltd."
