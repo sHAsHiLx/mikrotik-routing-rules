@@ -146,6 +146,8 @@
 /routing rule add dst-address=5.45.72.170 action=lookup table=vpn comment="iedem.tv site"
 /routing rule add dst-address=5.61.54.61 action=lookup table=vpn comment="iedem.tv playlist"
 
+/routing rule add dst-address=31.177.72.0/21 action=lookup table=vpn comment="ru-center"
+/routing rule add dst-address=31.177.80.0/21 action=lookup table=vpn comment="ru-center"
 /routing rule add dst-address=89.104.64.0/19 action=lookup table=vpn comment="ru-center"
 /routing rule add dst-address=89.111.128.0/18 action=lookup table=vpn comment="ru-center"
 /routing rule add dst-address=91.189.112.0/21 action=lookup table=vpn comment="ru-center"
