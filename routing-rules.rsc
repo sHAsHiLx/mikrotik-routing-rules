@@ -858,5 +858,3 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=5.101.37.0/24 action=lookup table=vpn comment="EDGEAM LLC"
 
 /routing rule add dst-address=176.109.96.0/20 action=lookup table=vpn comment="Cloud Technologies LLC trading as Cloud.ru"
-
-/routing rule add dst-address=72.52.128.0/17 action=lookup table=vpn comment="Liquid Web, L.L.C"
