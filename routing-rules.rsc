@@ -862,3 +862,5 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=46.180.0.0/15 action=lookup table=vpn comment="E-Light-Telecom Ltd."
 
 /routing rule add dst-address=185.73.192.0/22 action=lookup table=vpn comment="LLC Internet Solutions"
+
+/routing rule add dst-address=5.182.27.0/24 action=lookup table=vpn comment="Osnova Data Net LLC"
