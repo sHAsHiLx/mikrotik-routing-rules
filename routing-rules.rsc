@@ -1,5 +1,3 @@
-/routing rule add dst-address=4.4.4.4/32 action=lookup table=vpn comment="dns.google"
-
 /routing rule add dst-address=8.8.8.8/32 action=lookup table=vpn comment="dns.google"
 /routing rule add dst-address=8.8.4.4/32 action=lookup table=vpn comment="dns.google"
 
