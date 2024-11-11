@@ -323,6 +323,7 @@
 /routing rule add dst-address=89.108.90.0/24 action=lookup table=vpn comment="Domain names registrar REG.RU"
 /routing rule add dst-address=89.108.108.0/22 action=lookup table=vpn comment="Domain names registrar REG.RU"
 /routing rule add dst-address=89.108.116.0/22 action=lookup table=vpn comment="Domain names registrar REG.RU"
+/routing rule add dst-address=89.108.120.0/24 action=lookup table=vpn comment="Domain names registrar REG.RU"
 /routing rule add dst-address=134.0.112.0/24 action=lookup table=vpn comment="Domain names registrar REG.RU"
 /routing rule add dst-address=178.21.8.0/24 action=lookup table=vpn comment="Domain names registrar REG.RU"
 /routing rule add dst-address=178.21.12.0/22 action=lookup table=vpn comment="Domain names registrar REG.RU"
