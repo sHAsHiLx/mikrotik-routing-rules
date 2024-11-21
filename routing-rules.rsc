@@ -379,6 +379,7 @@
 /routing rule add dst-address=188.225.40.0/24 action=lookup table=vpn comment="TimeWeb-AS"
 /routing rule add dst-address=217.18.63.0/24 action=lookup table=vpn comment="TimeWeb-AS"
 
+/routing rule add dst-address=178.208.69.0/24 action=lookup table=vpn comment="RuWeb LLC"
 /routing rule add dst-address=178.208.71.0/24 action=lookup table=vpn comment="LLC RuWeb"
 /routing rule add dst-address=185.12.92.0/22 action=lookup table=vpn comment="Internet-Hosting Ltd"
 
