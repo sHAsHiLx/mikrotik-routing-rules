@@ -21,6 +21,7 @@
 /routing rule add dst-address=100.43.64.0/19 action=lookup table=vpn comment="Yandex network"
 /routing rule add dst-address=158.160.0.0/16 action=lookup table=vpn comment="Yandex.Cloud LLC"
 
+/routing rule add dst-address=5.101.40.0/22 action=lookup table=vpn comment="LLC VK"
 /routing rule add dst-address=5.181.60.0/22 action=lookup table=vpn comment="VK.com network"
 /routing rule add dst-address=45.84.128.0/22 action=lookup table=vpn comment="VK.com network"
 /routing rule add dst-address=45.136.20.0/22 action=lookup table=vpn comment="VK.com network"
