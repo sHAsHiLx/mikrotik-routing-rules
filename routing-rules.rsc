@@ -5,6 +5,7 @@
 /routing rule add dst-address=178.208.73.0/24 action=lookup table=vpn comment="mchost.ru"
 /routing rule add dst-address=178.208.83.0/24 action=lookup table=vpn comment="mchost.ru"
 /routing rule add dst-address=46.30.45.0/24 action=lookup table=vpn comment="eurobyte vps"
+/routing rule add dst-address=185.154.52.0/24 action=lookup table=vpn comment="Eurobyte VDS"
 
 /routing rule add dst-address=5.45.192.0/18 action=lookup table=vpn comment="Yandex network"
 /routing rule add dst-address=5.255.192.0/18 action=lookup table=vpn comment="Yandex network"
