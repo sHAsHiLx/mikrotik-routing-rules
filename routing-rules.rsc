@@ -915,3 +915,5 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=212.67.25.0/24 action=lookup table=vpn comment="SERVICEPIPE LLC"
 /routing rule add dst-address=212.67.26.0/24 action=lookup table=vpn comment="SERVICEPIPE LLC"
 /routing rule add dst-address=212.67.27.0/24 action=lookup table=vpn comment="SERVICEPIPE LLC"
+
+/routing rule add dst-address=192.145.99.0/24 action=lookup table=vpn comment="StAnger"
