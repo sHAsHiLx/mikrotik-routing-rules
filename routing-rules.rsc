@@ -117,6 +117,7 @@
 /routing rule add dst-address=81.163.16.0/20 action=lookup table=vpn comment="selectel data-centers"
 /routing rule add dst-address=84.38.176.0/20 action=lookup table=vpn comment="selectel data-centers"
 /routing rule add dst-address=85.119.144.0/21 action=lookup table=vpn comment="selectel data-centers"
+/routing rule add dst-address=80.249.144.0/22 action=lookup table=vpn comment="OOO Network of data-centers Selectel"
 /routing rule add dst-address=89.248.192.0/20 action=lookup table=vpn comment="selectel data-centers"
 /routing rule add dst-address=92.42.14.0/23 action=lookup table=vpn comment="selectel data-centers"
 /routing rule add dst-address=92.53.64.0/19 action=lookup table=vpn comment="selectel data-centers"
