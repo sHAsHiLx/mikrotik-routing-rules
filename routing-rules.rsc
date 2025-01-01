@@ -784,6 +784,7 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 
 /routing rule add dst-address=91.215.41.0/24 action=lookup table=vpn comment="DDOS-GUARD LTD"
 /routing rule add dst-address=185.129.100.0/24 action=lookup table=vpn comment="DDOS-GUARD LTD"
+/routing rule add dst-address=185.178.210.0/24 action=lookup table=vpn comment="DDOS GUARD NET210"
 
 /routing rule add dst-address=185.71.65.0/24 action=lookup table=vpn comment="StormWall Clients Network"
 /routing rule add dst-address=185.71.67.0/24 action=lookup table=vpn comment="Storm Systems LLC"
