@@ -782,7 +782,6 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 
 /routing rule add dst-address=88.214.236.0/23 action=lookup table=vpn comment="iPipe SD block"
 
-; ASN 57724 - DDOS-GUARD
 /routing rule add dst-address=45.10.240.0/24 action=lookup table=vpn comment="DDOS-GUARD LTD"
 /routing rule add dst-address=45.10.243.0/24 action=lookup table=vpn comment="DDOS-GUARD LTD"
 /routing rule add dst-address=45.132.16.0/24 action=lookup table=vpn comment="MT FINANCE LLC"
