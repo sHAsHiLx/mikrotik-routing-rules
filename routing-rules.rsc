@@ -1026,3 +1026,6 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=195.216.243.0/24 action=lookup table=vpn comment="Compubyte Limited"
 /routing rule add dst-address=217.114.42.0/24 action=lookup table=vpn comment="DDOS-GUARD LLC"
 
+# ASN 198947 - RETNRU-SPB-AS
+/routing rule add dst-address=139.45.248.0/21 action=lookup table=vpn comment="JSC RetnNet Saint Petersburg Customers"
+/routing rule add dst-address=185.22.180.0/22 action=lookup table=vpn comment="JSC RetnNet"
