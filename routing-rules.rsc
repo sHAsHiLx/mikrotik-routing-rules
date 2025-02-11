@@ -1484,3 +1484,10 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=195.58.48.0/23 action=lookup table=vpn comment="Baxet Group Inc."
 /routing rule add dst-address=195.133.5.0/24 action=lookup table=vpn comment="Baxet Group Inc."
 /routing rule add dst-address=195.133.23.0/24 action=lookup table=vpn comment="Baxet Group Inc."
+
+# ASN 210848 - TK-NET
+/routing rule add dst-address=31.43.191.0/24 action=lookup table=vpn comment="FOP Dmytro Nedilskyi"
+/routing rule add dst-address=92.63.197.0/24 action=lookup table=vpn comment="Korotkij Denis Aleksandrovich"
+/routing rule add dst-address=185.156.73.0/24 action=lookup table=vpn comment="TOV E-RISHENNYA"
+/routing rule add dst-address=185.156.74.0/24 action=lookup table=vpn comment="TOV VAIZ PARTNER"
+/routing rule add dst-address=185.193.88.0/24 action=lookup table=vpn comment="TOV E-RISHENNYA"
