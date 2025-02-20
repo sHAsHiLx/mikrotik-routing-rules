@@ -1491,3 +1491,6 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=185.156.73.0/24 action=lookup table=vpn comment="TOV E-RISHENNYA"
 /routing rule add dst-address=185.156.74.0/24 action=lookup table=vpn comment="TOV VAIZ PARTNER"
 /routing rule add dst-address=185.193.88.0/24 action=lookup table=vpn comment="TOV E-RISHENNYA"
+
+# ASN 49684 - MFMS-NET
+/routing rule add dst-address=91.213.158.0/24 action=lookup table=vpn comment="MFMSolutions"
