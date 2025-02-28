@@ -893,9 +893,6 @@
 
 /routing rule add dst-address=82.97.198.0/24 action=lookup table=vpn comment="Filanco LLC"
 
-/routing rule add dst-address=185.9.144.0/22 action=lookup table=vpn comment="SmartApe OU"
-/routing rule add dst-address=188.127.224.0/20 action=lookup table=vpn comment="SmartApe OU"
-
 /routing rule add dst-address=84.42.0.0/17 action=lookup table=vpn comment="PJSC Rostelecom"
 /routing rule add dst-address=188.254.0.0/17 action=lookup table=vpn comment="PJSC Rostelecom"
 
@@ -1494,3 +1491,36 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 
 # ASN 49684 - MFMS-NET
 /routing rule add dst-address=91.213.158.0/24 action=lookup table=vpn comment="MFMSolutions"
+
+# ASN 56694 - SmartApe
+/routing rule add dst-address=5.188.166.0/24 action=lookup table=vpn comment="Cust 74878"
+/routing rule add dst-address=31.177.108.0/22 action=lookup table=vpn comment="LLC Smart Ape"
+/routing rule add dst-address=31.177.108.0/24 action=lookup table=vpn comment="SmartApe"
+/routing rule add dst-address=31.177.109.0/24 action=lookup table=vpn comment="SmartApe"
+/routing rule add dst-address=31.177.110.0/24 action=lookup table=vpn comment="SmartApe"
+/routing rule add dst-address=89.23.96.0/22 action=lookup table=vpn comment="Smartape"
+/routing rule add dst-address=89.23.100.0/24 action=lookup table=vpn comment="Smartape"
+/routing rule add dst-address=89.23.101.0/24 action=lookup table=vpn comment="Smartape"
+/routing rule add dst-address=89.23.102.0/24 action=lookup table=vpn comment="Smartape"
+/routing rule add dst-address=91.219.148.0/22 action=lookup table=vpn comment="LLC Smart Ape"
+/routing rule add dst-address=91.219.149.0/24 action=lookup table=vpn comment="LLC Smart Ape"
+/routing rule add dst-address=94.198.50.0/23 action=lookup table=vpn comment="LLC Smart Ape"
+/routing rule add dst-address=94.198.52.0/22 action=lookup table=vpn comment="LLC Smart Ape"
+/routing rule add dst-address=152.89.216.0/22 action=lookup table=vpn comment="LLC Smart Ape"
+/routing rule add dst-address=178.255.126.0/24 action=lookup table=vpn comment="SmartApe"
+/routing rule add dst-address=178.255.126.0/23 action=lookup table=vpn comment="LLC Smart Ape"
+/routing rule add dst-address=185.9.144.0/22 action=lookup table=vpn comment="LLC Smart Ape"
+/routing rule add dst-address=185.9.145.0/24 action=lookup table=vpn comment="SmartApe"
+/routing rule add dst-address=185.65.201.0/24 action=lookup table=vpn comment="HostingGuru"
+/routing rule add dst-address=185.130.248.0/22 action=lookup table=vpn comment="LLC Smart Ape"
+/routing rule add dst-address=185.217.128.0/24 action=lookup table=vpn comment="SERVER ONE LLC"
+/routing rule add dst-address=188.127.224.0/20 action=lookup table=vpn comment="LLC Smart Ape"
+/routing rule add dst-address=188.127.240.0/22 action=lookup table=vpn comment="LLC Smart Ape"
+/routing rule add dst-address=188.127.241.0/24 action=lookup table=vpn comment="SmartApe"
+/routing rule add dst-address=188.127.244.0/23 action=lookup table=vpn comment="LLC Smart Ape"
+/routing rule add dst-address=188.127.248.0/22 action=lookup table=vpn comment="LLC Smart Ape"
+/routing rule add dst-address=188.127.253.0/24 action=lookup table=vpn comment="SmartApe"
+/routing rule add dst-address=188.127.254.0/23 action=lookup table=vpn comment="LLC Smart Ape"
+/routing rule add dst-address=212.67.17.0/24 action=lookup table=vpn comment="IPMAGNAT"
+/routing rule add dst-address=213.171.16.0/21 action=lookup table=vpn comment="LLC Smart Ape"
+/routing rule add dst-address=213.171.18.0/24 action=lookup table=vpn comment="LLC Smart Ape"
