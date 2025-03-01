@@ -1524,3 +1524,6 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=212.67.17.0/24 action=lookup table=vpn comment="IPMAGNAT"
 /routing rule add dst-address=213.171.16.0/21 action=lookup table=vpn comment="LLC Smart Ape"
 /routing rule add dst-address=213.171.18.0/24 action=lookup table=vpn comment="LLC Smart Ape"
+
+# ASN 47385 - HOSTING-COMPANY-AS
+/routing rule add dst-address=79.174.64.0/20 action=lookup table=vpn comment="RU-CENTER NETWORK"
