@@ -1482,3 +1482,11 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 
 # ASN 47385 - HOSTING-COMPANY-AS
 /routing rule add dst-address=79.174.64.0/20 action=lookup table=vpn comment="RU-CENTER NETWORK"
+
+# ASN 8291 - RSNET-AS
+/routing rule add dst-address=95.173.128.0/21 action=lookup table=vpn comment="RUSSIAN STATE INTERNET NETWORK"
+/routing rule add dst-address=194.226.80.0/21 action=lookup table=vpn comment="The Federal Guard Service of the Russian Federation"
+/routing rule add dst-address=194.226.116.0/22 action=lookup table=vpn comment="The Federal Guard Service of the Russian Federation"
+/routing rule add dst-address=95.173.136.0/23 action=lookup table=vpn comment="RUSSIAN STATE INTERNET NETWORK"
+/routing rule add dst-address=95.173.138.0/24 action=lookup table=vpn comment="RUSSIAN STATE INTERNET NETWORK"
+/routing rule add dst-address=95.173.140.0/24 action=lookup table=vpn comment="RUSSIAN STATE INTERNET NETWORK"
