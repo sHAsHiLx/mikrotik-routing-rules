@@ -817,13 +817,13 @@
 /routing rule add dst-address=90.156.200.0/21 action=lookup table=vpn comment="LLC MASTERHOST"
 /routing rule add dst-address=90.156.240.0/21 action=lookup table=vpn comment="LLC MASTERHOST"
 
-1 # ASN 24866 - Cloud-Megafon
-2 /routing rule add dst-address=178.176.227.0/24 action=lookup table=vpn comment="MF STF Cloud DC2"
-3 /routing rule add dst-address=178.176.228.0/24 action=lookup table=vpn comment="MF STF Cloud DC2"
-4 /routing rule add dst-address=178.176.229.0/24 action=lookup table=vpn comment="MF STF Cloud DC2"
-5 /routing rule add dst-address=178.177.40.0/24 action=lookup table=vpn comment="T4397920"
-6 /routing rule add dst-address=178.177.49.0/24 action=lookup table=vpn comment="T4717359"
-7 /routing rule add dst-address=178.177.60.0/24 action=lookup table=vpn comment="MF STF Cloud DC2"
+# ASN 24866 - Cloud-Megafon
+/routing rule add dst-address=178.176.227.0/24 action=lookup table=vpn comment="MF STF Cloud DC2"
+/routing rule add dst-address=178.176.228.0/24 action=lookup table=vpn comment="MF STF Cloud DC2"
+/routing rule add dst-address=178.176.229.0/24 action=lookup table=vpn comment="MF STF Cloud DC2"
+/routing rule add dst-address=178.177.40.0/24 action=lookup table=vpn comment="T4397920"
+/routing rule add dst-address=178.177.49.0/24 action=lookup table=vpn comment="T4717359"
+/routing rule add dst-address=178.177.60.0/24 action=lookup table=vpn comment="MF STF Cloud DC2"
 
 # ASN 12714 - MEGAFON-AS
 /routing rule add dst-address=176.192.0.0/15 action=lookup table=vpn comment="Net By Net Holding LLC"
