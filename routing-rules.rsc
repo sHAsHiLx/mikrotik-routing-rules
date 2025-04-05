@@ -181,6 +181,19 @@
 /routing rule add dst-address=194.186.63.0/24 action=lookup table=vpn comment="121005 Russia Moscow"
 /routing rule add dst-address=195.218.168.0/24 action=lookup table=vpn comment="http://corp.mail.ru"
 
+# ASN 47541 - VKONTAKTE-SPB-AS
+/routing rule add dst-address=95.213.0.0/17 action=lookup table=vpn comment="VKontakte Ltd"
+/routing rule add dst-address=87.240.128.0/18 action=lookup table=vpn comment="VKontakte Ltd"
+/routing rule add dst-address=95.142.192.0/20 action=lookup table=vpn comment="VKontakte Ltd"
+/routing rule add dst-address=93.186.224.0/21 action=lookup table=vpn comment="VKontakte Services"
+/routing rule add dst-address=93.186.232.0/21 action=lookup table=vpn comment="VKontakte Services"
+/routing rule add dst-address=185.32.248.0/22 action=lookup table=vpn comment="VKontakte Ltd"
+/routing rule add dst-address=185.131.68.0/23 action=lookup table=vpn comment="VK Services"
+/routing rule add dst-address=79.137.139.0/24 action=lookup table=vpn comment="M100 Colocation"
+/routing rule add dst-address=79.137.164.0/24 action=lookup table=vpn comment="M100 Colocation"
+/routing rule add dst-address=79.137.180.0/24 action=lookup table=vpn comment="M100 Colocation"
+/routing rule add dst-address=79.137.183.0/24 action=lookup table=vpn comment="M100 Colocation"
+
 /routing rule add dst-address=5.61.16.0/21 action=lookup table=vpn comment="Mail.ru network"
 /routing rule add dst-address=5.61.232.0/21 action=lookup table=vpn comment="Mail.ru network"
 /routing rule add dst-address=79.137.128.0/18 action=lookup table=vpn comment="Mail.ru network"
