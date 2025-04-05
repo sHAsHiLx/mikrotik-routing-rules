@@ -181,8 +181,6 @@
 /routing rule add dst-address=194.186.63.0/24 action=lookup table=vpn comment="121005 Russia Moscow"
 /routing rule add dst-address=195.218.168.0/24 action=lookup table=vpn comment="http://corp.mail.ru"
 
-/routing rule add dst-address=62.217.160.0/20 action=lookup table=vpn comment="LLC VK"
-
 /routing rule add dst-address=5.61.16.0/21 action=lookup table=vpn comment="Mail.ru network"
 /routing rule add dst-address=5.61.232.0/21 action=lookup table=vpn comment="Mail.ru network"
 /routing rule add dst-address=79.137.128.0/18 action=lookup table=vpn comment="Mail.ru network"
