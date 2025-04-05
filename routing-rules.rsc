@@ -3240,3 +3240,8 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=217.65.10.0/24 action=lookup table=vpn comment="FILANCO NET 217 10"
 /routing rule add dst-address=217.65.11.0/24 action=lookup table=vpn comment="FILANCO NET 217 11"
 /routing rule add dst-address=217.65.12.0/24 action=lookup table=vpn comment="FILANCO NET 217 12"
+
+# ASN 52016 - ADFACT
+/routing rule add dst-address=194.190.21.0/24 action=lookup table=vpn comment="Dvincev str., 12-1"
+/routing rule add dst-address=194.190.137.0/24 action=lookup table=vpn comment="Autonomous Nonprofit Organisation Russian Scientific-Research Institute for Public Networks"
+/routing rule add dst-address=194.226.130.0/24 action=lookup table=vpn comment="Dvincev str., 12-1"
