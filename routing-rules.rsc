@@ -3959,3 +3959,9 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=213.108.4.0/24 action=lookup table=vpn comment="MT FINANCE LLC"
 /routing rule add dst-address=217.21.55.0/24 action=lookup table=vpn comment="BELPRIME"
 /routing rule add dst-address=217.21.58.0/24 action=lookup table=vpn comment="BELPRIME"
+
+# ASN 39337 - Corpsoft24
+/routing rule add dst-address=194.126.160.0/22 action=lookup table=vpn comment="JSC Corp Soft"
+/routing rule add dst-address=195.208.184.0/22 action=lookup table=vpn comment="JSC Corp Soft"
+/routing rule add dst-address=46.235.52.0/23 action=lookup table=vpn comment="JSC Corp Soft"
+/routing rule add dst-address=194.85.220.0/24 action=lookup table=vpn comment="JSC Corp Soft"
