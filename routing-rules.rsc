@@ -3965,3 +3965,6 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=195.208.184.0/22 action=lookup table=vpn comment="JSC Corp Soft"
 /routing rule add dst-address=46.235.52.0/23 action=lookup table=vpn comment="JSC Corp Soft"
 /routing rule add dst-address=194.85.220.0/24 action=lookup table=vpn comment="JSC Corp Soft"
+
+1 # ASN 61306 - LITRES-AS
+2 /routing rule add dst-address=193.26.19.0/24 action=lookup table=vpn comment="LLC LitRes"
