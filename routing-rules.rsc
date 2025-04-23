@@ -4021,3 +4021,12 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=213.135.95.0/24 action=lookup table=vpn comment="NAUKANET-135-94"
 /routing rule add dst-address=213.208.170.0/24 action=lookup table=vpn comment="Moscow, Russia"
 /routing rule add dst-address=213.208.184.0/24 action=lookup table=vpn comment="LLC Nauka-Svyaz"
+
+# ASN 199860 - Xelent-AS
+/routing rule add dst-address=46.229.216.0/21 action=lookup table=vpn comment="JSC ER-Telecom Holding"
+/routing rule add dst-address=78.155.208.0/21 action=lookup table=vpn comment="JSC ER-Telecom Holding"
+/routing rule add dst-address=5.188.104.0/22 action=lookup table=vpn comment="ATOMDATA JSC"
+/routing rule add dst-address=91.132.228.0/22 action=lookup table=vpn comment="M-Cloud LLC"
+/routing rule add dst-address=91.226.104.0/22 action=lookup table=vpn comment="M-Cloud LLC"
+/routing rule add dst-address=185.44.12.0/22 action=lookup table=vpn comment="ATOMDATA JSC"
+/routing rule add dst-address=193.43.41.0/24 action=lookup table=vpn comment="ATOMDATA JSC"
