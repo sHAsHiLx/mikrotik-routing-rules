@@ -4030,3 +4030,17 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=91.226.104.0/22 action=lookup table=vpn comment="M-Cloud LLC"
 /routing rule add dst-address=185.44.12.0/22 action=lookup table=vpn comment="ATOMDATA JSC"
 /routing rule add dst-address=193.43.41.0/24 action=lookup table=vpn comment="ATOMDATA JSC"
+
+# ASN 207353 - Ruform
+/routing rule add dst-address=77.220.217.0/24 action=lookup table=vpn comment="Ruform LLC"
+/routing rule add dst-address=77.220.219.0/24 action=lookup table=vpn comment="Ruform LLC"
+/routing rule add dst-address=77.220.220.0/24 action=lookup table=vpn comment="Ruform LLC"
+/routing rule add dst-address=77.220.221.0/24 action=lookup table=vpn comment="Ruform LLC"
+/routing rule add dst-address=77.220.222.0/24 action=lookup table=vpn comment="Ruform LLC"
+/routing rule add dst-address=89.248.230.0/24 action=lookup table=vpn comment="Start2 LLC"
+/routing rule add dst-address=185.62.100.0/24 action=lookup table=vpn comment="Ruform LLC"
+/routing rule add dst-address=195.246.246.0/24 action=lookup table=vpn comment="Ruform LLC"
+/routing rule add dst-address=195.246.247.0/24 action=lookup table=vpn comment="Start2 LLC"
+/routing rule add dst-address=195.246.248.0/24 action=lookup table=vpn comment="Start2 LLC"
+/routing rule add dst-address=195.246.249.0/24 action=lookup table=vpn comment="Ruform LLC"
+/routing rule add dst-address=217.199.213.0/24 action=lookup table=vpn comment="Start2 LLC"
