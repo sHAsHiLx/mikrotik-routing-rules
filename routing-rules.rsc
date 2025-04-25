@@ -194,30 +194,12 @@
 /routing rule add dst-address=79.137.180.0/24 action=lookup table=vpn comment="M100 Colocation"
 /routing rule add dst-address=79.137.183.0/24 action=lookup table=vpn comment="M100 Colocation"
 
-/routing rule add dst-address=5.61.16.0/21 action=lookup table=vpn comment="Mail.ru network"
-/routing rule add dst-address=5.61.232.0/21 action=lookup table=vpn comment="Mail.ru network"
 /routing rule add dst-address=79.137.128.0/18 action=lookup table=vpn comment="Mail.ru network"
-/routing rule add dst-address=94.100.176.0/20 action=lookup table=vpn comment="Mail.ru network"
-/routing rule add dst-address=95.163.32.0/19 action=lookup table=vpn comment="Mail.ru network"
-/routing rule add dst-address=95.163.248.0/21 action=lookup table=vpn comment="Mail.ru network"
-/routing rule add dst-address=128.140.168.0/21 action=lookup table=vpn comment="Mail.ru network"
-/routing rule add dst-address=178.22.88.0/21 action=lookup table=vpn comment="Mail.ru network"
-/routing rule add dst-address=178.237.16.0/20 action=lookup table=vpn comment="Mail.ru network"
 
-/routing rule add dst-address=185.5.136.0/22 action=lookup table=vpn comment="Cloud.mail.ru App"
-/routing rule add dst-address=185.16.148.0/22 action=lookup table=vpn comment="Cloud.mail.ru App"
-/routing rule add dst-address=185.16.244.0/22 action=lookup table=vpn comment="Cloud.mail.ru App"
-/routing rule add dst-address=188.93.56.0/21 action=lookup table=vpn comment="Cloud.mail.ru App"
-/routing rule add dst-address=194.186.63.0/24 action=lookup table=vpn comment="Cloud.mail.ru App"
-/routing rule add dst-address=195.211.20.0/22 action=lookup table=vpn comment="Cloud.mail.ru App"
 /routing rule add dst-address=195.211.128.0/22 action=lookup table=vpn comment="Cloud.mail.ru App"
-/routing rule add dst-address=195.218.168.0/24 action=lookup table=vpn comment="Cloud.mail.ru App"
 /routing rule add dst-address=208.87.92.0/22 action=lookup table=vpn comment="Cloud.mail.ru App"
-/routing rule add dst-address=217.20.144.0/20 action=lookup table=vpn comment="Cloud.mail.ru App"
-/routing rule add dst-address=217.69.128.0/20 action=lookup table=vpn comment="Cloud.mail.ru App"
 /routing rule add dst-address=185.6.244.0/22 action=lookup table=vpn comment="Cloud.mail.ru App"
 /routing rule add dst-address=185.30.176.0/22 action=lookup table=vpn comment="Cloud.mail.ru App"
-/routing rule add dst-address=195.218.190.0/23 action=lookup table=vpn comment="Cloud.mail.ru App"
 
 /routing rule add dst-address=109.235.160.0/21 action=lookup table=vpn comment="yoomoney.ru"
 /routing rule add dst-address=130.193.32.0/19 action=lookup table=vpn comment="yoomoney.ru"
@@ -232,7 +214,6 @@
 /routing rule add dst-address=213.180.192.0/19 action=lookup table=vpn comment="yoomoney.ru"
 
 /routing rule add dst-address=193.0.170.0/23 action=lookup table=vpn comment="Mamba.ru (love.mail.ru)"
-/routing rule add dst-address=151.236.71.0/24 action=lookup table=vpn comment="Mamba.ru (love.mail.ru)"
 
 /routing rule add action=lookup comment=ds-assets.cdn.devapps.ru disabled=no dst-address=95.213.132.0/23 table=vpn
 /routing rule add action=lookup comment=ds-assets.cdn.devapps.ru disabled=no dst-address=31.131.252.0/23 table=vpn
@@ -840,8 +821,6 @@
 /routing rule add dst-address=82.146.60.113 action=lookup table=vpn comment="radikal.host"
 /routing rule add dst-address=81.177.135.201 action=lookup table=vpn comment="radikal.host"
 
-/routing rule add dst-address=23.111.104.0/24 action=lookup table=vpn comment="servers.ru"
-
 /routing rule add dst-address=5.45.72.170 action=lookup table=vpn comment="iedem.tv site"
 /routing rule add dst-address=5.61.54.61 action=lookup table=vpn comment="iedem.tv playlist"
 
@@ -852,9 +831,6 @@
 /routing rule add dst-address=91.189.112.0/21 action=lookup table=vpn comment="ru-center"
 /routing rule add dst-address=178.210.64.0/19 action=lookup table=vpn comment="ru-center"
 /routing rule add dst-address=195.208.1.0/24 action=lookup table=vpn comment="ru-center"
-
-/routing rule add dst-address=89.248.230.0/24 action=lookup table=vpn comment="rutube"
-/routing rule add dst-address=178.248.232.0/21 action=lookup table=vpn comment="rutube"
 
 /routing rule add dst-address=188.43.206.245 action=lookup table=vpn comment="salam-1-19.rutube.ru"
 /routing rule add dst-address=188.43.0.0/16 action=lookup table=vpn comment="salam-1-19.rutube.ru"
@@ -1402,7 +1378,6 @@
 /routing rule add dst-address=188.93.215.0/24 action=lookup table=vpn comment="Domain names registrar REG.RU, Ltd"
 /routing rule add dst-address=193.227.134.0/24 action=lookup table=vpn comment="LLC Services for Business"
 /routing rule add dst-address=194.67.64.0/24 action=lookup table=vpn comment="Domain names registrar REG.RU, Ltd"
-/routing rule add dst-address=194.67.75.0/24 action=lookup table=vpn comment="Domain names registrar REG.RU, Ltd"
 /routing rule add dst-address=194.67.76.0/24 action=lookup table=vpn comment="Domain names registrar REG.RU, Ltd"
 /routing rule add dst-address=194.67.76.0/23 action=lookup table=vpn comment="Domain names registrar REG.RU, Ltd"
 /routing rule add dst-address=194.67.77.0/24 action=lookup table=vpn comment="Domain names registrar REG.RU, Ltd"
@@ -1424,10 +1399,6 @@
 /routing rule add dst-address=217.172.24.0/22 action=lookup table=vpn comment="Beget LLC"
 
 /routing rule add dst-address=185.3.140.0/22 action=lookup table=vpn comment="Dataline Ltd"
-
-/routing rule add dst-address=93.95.98.0/23 action=lookup table=vpn comment="JSC MediaSoft Ekspert"
-/routing rule add dst-address=93.95.100.0/22 action=lookup table=vpn comment="JSC MediaSoft Ekspert"
-/routing rule add dst-address=194.87.144.0/22 action=lookup table=vpn comment="JSC MediaSoft Ekspert"
 
 /routing rule add dst-address=77.79.128.0/18 action=lookup table=vpn comment="JSC Ufanet"
 /routing rule add dst-address=92.50.128.0/18 action=lookup table=vpn comment="JSC Ufanet"
@@ -1572,8 +1543,6 @@
 /routing rule add dst-address=185.40.155.0/24 action=lookup table=vpn comment="Docker LTD"
 
 /routing rule add dst-address=185.5.72.0/22 action=lookup table=vpn comment="INTELIT LTD"
-
-/routing rule add dst-address=23.111.193.0/24 action=lookup table=vpn comment="United Network LLC"
 
 /routing rule add dst-address=82.97.198.0/24 action=lookup table=vpn comment="Filanco LLC"
 
@@ -3112,9 +3081,6 @@
 
 /routing rule add dst-address=185.211.244.0/24 action=lookup table=vpn comment="Chernyshov Aleksandr Aleksandrovich"
 
-/routing rule add dst-address=95.183.10.0/24 action=lookup table=vpn comment="IHC.RU network in Eserver.ru"
-/routing rule add dst-address=185.22.234.0/23 action=lookup table=vpn comment="IHC.RU network in Eserver.ru"
-
 /routing rule add dst-address=83.172.48.0/21 action=lookup table=vpn comment="JSC ER-Telecom Holding"
 /routing rule add dst-address=195.91.128.0/17 action=lookup table=vpn comment="JSC ER-Telecom Holding"
 
@@ -3428,10 +3394,16 @@ routing rule add dst-address=212.193.157.0/24 action=lookup table=vpn comment="N
 routing rule add dst-address=212.193.158.0/24 action=lookup table=vpn comment="NGENIX"
 routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="NGENIX"
 
+# ASN 51115 - HLL-AS
 /routing rule add dst-address=178.248.232.0/21 action=lookup table=vpn comment="HLL LLC"
 /routing rule add dst-address=185.65.148.0/22 action=lookup table=vpn comment="HLL LLC"
 /routing rule add dst-address=185.94.108.0/22 action=lookup table=vpn comment="HLL LLC"
+/routing rule add dst-address=81.161.98.0/23 action=lookup table=vpn comment="HLL LLC"
+/routing rule add dst-address=78.155.198.0/24 action=lookup table=vpn comment="Selectel Ltd."
+
+# ASN 197068 - CURATOR
 /routing rule add dst-address=195.43.92.0/24 action=lookup table=vpn comment="HLL LLC"
+/routing rule add dst-address=195.43.93.0/24 action=lookup table=vpn comment="HLL LLC"
 
 /routing rule add dst-address=195.211.120.0/22 action=lookup table=vpn comment="NOVOSYSTEM Ltd."
 
@@ -3477,8 +3449,6 @@ routing rule add dst-address=212.193.159.0/24 action=lookup table=vpn comment="N
 /routing rule add dst-address=89.178.0.0/15 action=lookup table=vpn comment="PJSC Vimpelcom"
 /routing rule add dst-address=194.186.0.0/16 action=lookup table=vpn comment="PJSC Vimpelcom"
 /routing rule add dst-address=213.221.0.0/18 action=lookup table=vpn comment="PJSC Vimpelcom"
-
-/routing rule add dst-address=185.215.4.0/24 action=lookup table=vpn comment="Tilda Publishing LLC"
 
 /routing rule add dst-address=91.207.58.0/23 action=lookup table=vpn comment="Limited Liability Company GPM Digital Technologies"
 
